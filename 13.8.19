@@ -1,0 +1,16 @@
+tickets = int(input("Введите количество билетов, которые Вы хотите приобрести"))
+age = int(input("Введите возраст"))
+
+if 18 <= age <= 25:
+    cost = tickets * 990
+elif age > 25:
+    cost = tickets * 1390
+else:
+    cost = 0
+
+if tickets > 3:
+    total_cost = int(cost * 0.9)
+else:
+    total_cost = cost
+
+print(total_cost)
