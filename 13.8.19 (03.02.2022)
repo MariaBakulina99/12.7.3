@@ -15,4 +15,4 @@ if tickets > 3:
 else:
     total_price = sum(price)
 
-print(total_price)
+print("Итоговая стоиомость билетов", total_price)
